@@ -2885,11 +2885,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ddfdafdb-6c7e-4419-8be4-dd0703b60305)
   )
-  (text "TODO: Redo for 80S31\n\nseems like we can do a dual footprint\n\nhttps://electrelic.com/electrelic/node/268"
-    (at 229.87 110.49 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ee137c6c-4223-4d83-a506-6e39a7ead6f9)
-  )
 
   (label "pa0" (at 206.375 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
