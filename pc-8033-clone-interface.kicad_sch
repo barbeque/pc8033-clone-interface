@@ -4855,7 +4855,7 @@
     (property "Value" "80s31" (at 190.5 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" (at 189.23 109.22 0)
+    (property "Footprint" "PC-8001:Centronics_36_FDD" (at 189.23 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 189.23 109.22 0)
