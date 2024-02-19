@@ -71,7 +71,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "pc8033-clone-v1")
+      (outputdirectory "pc8033-clone-v2")
     )
   )
 
@@ -1911,9 +1911,6 @@
 
   (gr_rect (start 104.775 71.12) (end 200.025 138.43)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 7754f79e-4602-40dc-8e82-da5310244ab7))
-  (gr_text "34" (at 194.945 125.73) (layer "F.SilkS") (tstamp 21b37fc9-4168-4577-9b74-7612f116d834)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
-  )
   (gr_text "1" (at 118.364 135.28881 -90) (layer "F.SilkS") (tstamp 286f3b78-959e-467c-999d-0b05a4fb524f)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
@@ -1937,9 +1934,6 @@
   )
   (gr_text "NEC PC-8033 Floppy Drive Interface Substitute\nleadedsolder.com 2023-24 v0.2" (at 192.405 136.525) (layer "F.SilkS") (tstamp eb357bd8-2c17-499d-a9fe-857c7849a8ec)
     (effects (font (size 1 1) (thickness 0.15)) (justify right bottom))
-  )
-  (gr_text "36" (at 194.945 128.27) (layer "F.SilkS") (tstamp f5f03104-d113-4c98-9459-6a91982eac26)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (dimension (type aligned) (layer "Cmts.User") (tstamp 2deb021f-256b-4f6a-aaeb-fe5cbfc7a23c)
     (pts (xy 104.775 71.12) (xy 104.775 138.43))

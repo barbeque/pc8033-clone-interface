@@ -1,5 +1,6 @@
 *.lck
 *v1
+*v2
 *.zip
 *backup*
 *cache*
