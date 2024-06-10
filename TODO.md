@@ -1,0 +1,4 @@
+ - [ ] Design a case using turbocase
+ - [ ] Get some build instructions together
+ - [ ] Consider alternative ways to offer a 34/36 dual footprint without bending pins
+ - [ ] Clean up TODOs
