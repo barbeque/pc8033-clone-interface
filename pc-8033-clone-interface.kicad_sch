@@ -3018,10 +3018,20 @@
     (uuid ff9fd54d-3e11-465d-975e-202bdc968d4a)
   )
 
+  (text "The real hardware uses 5.1kΩ but I'm\nnot sure why that would be, and it\ndoes not seem to matter.\n4.7kΩ is way easier to get"
+    (at 196.85 24.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3bd58380-67be-4a82-a51e-d5c83045f3b3)
+  )
   (text "This second inversion of reset appears to be important for timing purposes,\nas per https://blog.goo.ne.jp/tk-80/e/6ac4226f93ae2f80224ee7fcf31cb796"
     (at 166.37 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 57406e04-8ce8-4054-9084-7ac0c35411e3)
+  )
+  (text "Why does this OR gate exist at all?\nWe could invert ~{IORQ} and gate it into\nthe 74LS30, maybe the timing isn't right"
+    (at -14.605 81.915 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a556a0f9-74e0-42d9-98d3-0a597bbc5104)
   )
   (text "34 pin (8031): https://electrelic.com/electrelic/node/330\n36 pin (80S31): https://electrelic.com/electrelic/node/268"
     (at 173.99 78.74 0)
