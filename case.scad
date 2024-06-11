@@ -133,10 +133,19 @@ translate([-152.4, -104.77499999999999, 0]) {
             case_outline();
         }
 
-    translate([191.643, 105.28300000000002, inner_height+floor_height])
-        cube([11.430000000000007, 52.07000000000001, floor_height + 12], center=true);
-    translate([115.443, 105.41, inner_height+floor_height])
-        cube([7.873999999999995, 65.024, floor_height + 12], center=true);
+        translate([191.643, 105.28300000000002, inner_height+floor_height])
+            cube([11.430000000000007, 52.07000000000001, floor_height + 12], center=true);
+        translate([115.443, 105.41, inner_height+floor_height])
+            cube([7.873999999999995, 65.024, floor_height + 12], center=true);
+        
+        /*translate([125,130,inner_height + floor_height + 8]) {
+            rotate([180,0,0]) {
+                
+            linear_extrude(100) {
+                text("PC-8033", size = 10);
+            }
+        }
+        }*/
     }
 
     if (show_pcb && $preview) {
