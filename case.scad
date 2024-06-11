@@ -15,7 +15,7 @@ pcb_thickness = 1.6;
 // Bottom layer thickness
 floor_height = 1.2;
 // Case wall thickness
-wall_thickness = 1.2;
+wall_thickness = 2;
 // Space between the top of the PCB and the top of the case
 headroom = 0;
 
@@ -48,7 +48,7 @@ module bottom(thickness, height) {
 }
 
 module lid(thickness, height, edge) {
-    linear_extrude(height, convexity=10) {
+    linear_extrude(height * 5, convexity=10) {
         offset(r=thickness)
             children();
     }
@@ -93,13 +93,6 @@ module mount(drill, space, height) {
         
 }
 
-module connector(min_x, min_y, max_x, max_y, height) {
-    size_x = max_x - min_x;
-    size_y = max_y - min_y;
-    translate([(min_x + max_x)/2, (min_y + max_y)/2, height/2])
-        cube([size_x, size_y, height], center=true);
-}
-
 module pcb() {
     thickness = 1.6;
 
@@ -141,9 +134,9 @@ translate([-152.4, -104.77499999999999, 0]) {
         }
 
     translate([191.643, 105.28300000000002, inner_height+floor_height])
-        cube([11.430000000000007, 52.07000000000001, floor_height + 2], center=true);
+        cube([11.430000000000007, 52.07000000000001, floor_height + 12], center=true);
     translate([115.443, 105.41, inner_height+floor_height])
-        cube([7.873999999999995, 65.024, floor_height + 2], center=true);
+        cube([7.873999999999995, 65.024, floor_height + 12], center=true);
     }
 
     if (show_pcb && $preview) {

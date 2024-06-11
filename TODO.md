@@ -1,4 +1,6 @@
- - [ ] Design a case using turbocase
- - [ ] Get some build instructions together
+ - [x] Design a case using turbocase
+    - [ ] Make the lid taller
+    - [ ] Add some labels to it somehow
+ - [x] Get some build instructions together
  - [ ] Consider alternative ways to offer a 34/36 dual footprint without bending pins
  - [ ] Clean up TODOs
